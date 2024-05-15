@@ -1,7 +1,6 @@
 import { test, assert } from "vitest"
 import { LogMethod } from "../src/log"
 import { Cache } from "../src/cache"
-import { LogMethod } from "../src/log"
 
 class UserService {
   @LogMethod
