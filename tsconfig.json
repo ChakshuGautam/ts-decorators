@@ -12,7 +12,8 @@
     "noEmit": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "types": ["vitest/globals"]
   }
 }
