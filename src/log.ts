@@ -1,3 +1,5 @@
+const { performance } = require("perf_hooks")
+
 export const LogMethod = (
   target: any,
   propertyName: string,
